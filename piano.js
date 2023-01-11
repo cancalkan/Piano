@@ -11,5 +11,6 @@ function PlayNote(key) {
     NoteAudio.addEventListener('ended', () => {
         key.classList.remove('active')
     })
+    
 
 }
